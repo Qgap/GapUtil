@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3E50951F8C861D00F62E29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E50941F8C861D00F62E29 /* AppDelegate.m */; };
+		3A3E50981F8C861D00F62E29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E50971F8C861D00F62E29 /* ViewController.m */; };
+		3A3E509D1F8C861D00F62E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E509C1F8C861D00F62E29 /* Assets.xcassets */; };
+		3A3E50A31F8C861D00F62E29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E50A21F8C861D00F62E29 /* main.m */; };
+		3A3E50AD1F8C861D00F62E29 /* GapUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E50AC1F8C861D00F62E29 /* GapUtilTests.m */; };
+		3A3E50B81F8C861D00F62E29 /* GapUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E50B71F8C861D00F62E29 /* GapUtilUITests.m */; };
+		3A3E50C71F8CB34800F62E29 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E50C51F8CB34800F62E29 /* MZTimerLabel.m */; };
+		3A3E50CB1F8CB92E00F62E29 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E50CA1F8CB92E00F62E29 /* Validator.m */; };
+		3A3E50CE1F8CBBFE00F62E29 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E50CD1F8CBBFE00F62E29 /* DataCenter.m */; };
+		3D1C97966D93F9D0617A28D4 /* libPods-GapUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3A545AD7FC3408CBC0FE93 /* libPods-GapUtil.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A3E50A91F8C861D00F62E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3E50881F8C861D00F62E29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3E508F1F8C861D00F62E29;
+			remoteInfo = GapUtil;
+		};
+		3A3E50B41F8C861D00F62E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3E50881F8C861D00F62E29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3E508F1F8C861D00F62E29;
+			remoteInfo = GapUtil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A3E50901F8C861D00F62E29 /* GapUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GapUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3E50931F8C861D00F62E29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A3E50941F8C861D00F62E29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A3E50961F8C861D00F62E29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A3E50971F8C861D00F62E29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A3E509C1F8C861D00F62E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A3E50A11F8C861D00F62E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3E50A21F8C861D00F62E29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A3E50A81F8C861D00F62E29 /* GapUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3E50AC1F8C861D00F62E29 /* GapUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GapUtilTests.m; sourceTree = "<group>"; };
+		3A3E50AE1F8C861D00F62E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3E50B31F8C861D00F62E29 /* GapUtilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapUtilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3E50B71F8C861D00F62E29 /* GapUtilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GapUtilUITests.m; sourceTree = "<group>"; };
+		3A3E50B91F8C861D00F62E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3E50C51F8CB34800F62E29 /* MZTimerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
+		3A3E50C61F8CB34800F62E29 /* MZTimerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		3A3E50C81F8CB4F600F62E29 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		3A3E50C91F8CB92E00F62E29 /* Validator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
+		3A3E50CA1F8CB92E00F62E29 /* Validator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
+		3A3E50CC1F8CBBFE00F62E29 /* DataCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
+		3A3E50CD1F8CBBFE00F62E29 /* DataCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
+		9B3A545AD7FC3408CBC0FE93 /* libPods-GapUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GapUtil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFFFAB3B64B036B21C819B2 /* Pods-GapUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GapUtil.release.xcconfig"; path = "Pods/Target Support Files/Pods-GapUtil/Pods-GapUtil.release.xcconfig"; sourceTree = "<group>"; };
+		F16E238FE28D21CC17C7A923 /* Pods-GapUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GapUtil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GapUtil/Pods-GapUtil.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A3E508D1F8C861D00F62E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1C97966D93F9D0617A28D4 /* libPods-GapUtil.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3E50A51F8C861D00F62E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3E50B01F8C861D00F62E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3E50871F8C861D00F62E29 = {
+			isa = PBXGroup;
+			children = (
+				3A3E50921F8C861D00F62E29 /* GapUtil */,
+				3A3E50AB1F8C861D00F62E29 /* GapUtilTests */,
+				3A3E50B61F8C861D00F62E29 /* GapUtilUITests */,
+				3A3E50911F8C861D00F62E29 /* Products */,
+				FCEBB4C6A52A8E1F2BC3132F /* Pods */,
+				5DD26762916EA0FA947F0141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A3E50911F8C861D00F62E29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A3E50901F8C861D00F62E29 /* GapUtil.app */,
+				3A3E50A81F8C861D00F62E29 /* GapUtilTests.xctest */,
+				3A3E50B31F8C861D00F62E29 /* GapUtilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A3E50921F8C861D00F62E29 /* GapUtil */ = {
+			isa = PBXGroup;
+			children = (
+				3A3E50C91F8CB92E00F62E29 /* Validator.h */,
+				3A3E50CA1F8CB92E00F62E29 /* Validator.m */,
+				3A3E50C81F8CB4F600F62E29 /* Header.h */,
+				3A3E50C61F8CB34800F62E29 /* MZTimerLabel.h */,
+				3A3E50C51F8CB34800F62E29 /* MZTimerLabel.m */,
+				3A3E50931F8C861D00F62E29 /* AppDelegate.h */,
+				3A3E50941F8C861D00F62E29 /* AppDelegate.m */,
+				3A3E50961F8C861D00F62E29 /* ViewController.h */,
+				3A3E50971F8C861D00F62E29 /* ViewController.m */,
+				3A3E509C1F8C861D00F62E29 /* Assets.xcassets */,
+				3A3E50A11F8C861D00F62E29 /* Info.plist */,
+				3A3E50A21F8C861D00F62E29 /* main.m */,
+				3A3E50CC1F8CBBFE00F62E29 /* DataCenter.h */,
+				3A3E50CD1F8CBBFE00F62E29 /* DataCenter.m */,
+			);
+			path = GapUtil;
+			sourceTree = "<group>";
+		};
+		3A3E50AB1F8C861D00F62E29 /* GapUtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3E50AC1F8C861D00F62E29 /* GapUtilTests.m */,
+				3A3E50AE1F8C861D00F62E29 /* Info.plist */,
+			);
+			path = GapUtilTests;
+			sourceTree = "<group>";
+		};
+		3A3E50B61F8C861D00F62E29 /* GapUtilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3E50B71F8C861D00F62E29 /* GapUtilUITests.m */,
+				3A3E50B91F8C861D00F62E29 /* Info.plist */,
+			);
+			path = GapUtilUITests;
+			sourceTree = "<group>";
+		};
+		5DD26762916EA0FA947F0141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B3A545AD7FC3408CBC0FE93 /* libPods-GapUtil.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCEBB4C6A52A8E1F2BC3132F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F16E238FE28D21CC17C7A923 /* Pods-GapUtil.debug.xcconfig */,
+				EBFFFAB3B64B036B21C819B2 /* Pods-GapUtil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A3E508F1F8C861D00F62E29 /* GapUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3E50BC1F8C861D00F62E29 /* Build configuration list for PBXNativeTarget "GapUtil" */;
+			buildPhases = (
+				2EE70B2CBAB29330273AF17D /* [CP] Check Pods Manifest.lock */,
+				3A3E508C1F8C861D00F62E29 /* Sources */,
+				3A3E508D1F8C861D00F62E29 /* Frameworks */,
+				3A3E508E1F8C861D00F62E29 /* Resources */,
+				1766718A798FFA640303EE17 /* [CP] Embed Pods Frameworks */,
+				C4C923375DE2454AF8F1B946 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GapUtil;
+			productName = GapUtil;
+			productReference = 3A3E50901F8C861D00F62E29 /* GapUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A3E50A71F8C861D00F62E29 /* GapUtilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3E50BF1F8C861D00F62E29 /* Build configuration list for PBXNativeTarget "GapUtilTests" */;
+			buildPhases = (
+				3A3E50A41F8C861D00F62E29 /* Sources */,
+				3A3E50A51F8C861D00F62E29 /* Frameworks */,
+				3A3E50A61F8C861D00F62E29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3E50AA1F8C861D00F62E29 /* PBXTargetDependency */,
+			);
+			name = GapUtilTests;
+			productName = GapUtilTests;
+			productReference = 3A3E50A81F8C861D00F62E29 /* GapUtilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A3E50B21F8C861D00F62E29 /* GapUtilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3E50C21F8C861D00F62E29 /* Build configuration list for PBXNativeTarget "GapUtilUITests" */;
+			buildPhases = (
+				3A3E50AF1F8C861D00F62E29 /* Sources */,
+				3A3E50B01F8C861D00F62E29 /* Frameworks */,
+				3A3E50B11F8C861D00F62E29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3E50B51F8C861D00F62E29 /* PBXTargetDependency */,
+			);
+			name = GapUtilUITests;
+			productName = GapUtilUITests;
+			productReference = 3A3E50B31F8C861D00F62E29 /* GapUtilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A3E50881F8C861D00F62E29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = gap;
+				TargetAttributes = {
+					3A3E508F1F8C861D00F62E29 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3A3E50A71F8C861D00F62E29 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A3E508F1F8C861D00F62E29;
+					};
+					3A3E50B21F8C861D00F62E29 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A3E508F1F8C861D00F62E29;
+					};
+				};
+			};
+			buildConfigurationList = 3A3E508B1F8C861D00F62E29 /* Build configuration list for PBXProject "GapUtil" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A3E50871F8C861D00F62E29;
+			productRefGroup = 3A3E50911F8C861D00F62E29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A3E508F1F8C861D00F62E29 /* GapUtil */,
+				3A3E50A71F8C861D00F62E29 /* GapUtilTests */,
+				3A3E50B21F8C861D00F62E29 /* GapUtilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A3E508E1F8C861D00F62E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3E509D1F8C861D00F62E29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3E50A61F8C861D00F62E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3E50B11F8C861D00F62E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1766718A798FFA640303EE17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GapUtil/Pods-GapUtil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EE70B2CBAB29330273AF17D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GapUtil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4C923375DE2454AF8F1B946 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GapUtil/Pods-GapUtil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A3E508C1F8C861D00F62E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3E50981F8C861D00F62E29 /* ViewController.m in Sources */,
+				3A3E50C71F8CB34800F62E29 /* MZTimerLabel.m in Sources */,
+				3A3E50CB1F8CB92E00F62E29 /* Validator.m in Sources */,
+				3A3E50A31F8C861D00F62E29 /* main.m in Sources */,
+				3A3E50CE1F8CBBFE00F62E29 /* DataCenter.m in Sources */,
+				3A3E50951F8C861D00F62E29 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3E50A41F8C861D00F62E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3E50AD1F8C861D00F62E29 /* GapUtilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3E50AF1F8C861D00F62E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3E50B81F8C861D00F62E29 /* GapUtilUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3E50AA1F8C861D00F62E29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3E508F1F8C861D00F62E29 /* GapUtil */;
+			targetProxy = 3A3E50A91F8C861D00F62E29 /* PBXContainerItemProxy */;
+		};
+		3A3E50B51F8C861D00F62E29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3E508F1F8C861D00F62E29 /* GapUtil */;
+			targetProxy = 3A3E50B41F8C861D00F62E29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A3E50BA1F8C861D00F62E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A3E50BB1F8C861D00F62E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A3E50BD1F8C861D00F62E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16E238FE28D21CC17C7A923 /* Pods-GapUtil.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85369EBNDG;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"$(SRCROOT)/GapUtil/Header.h\"",
+				);
+				INFOPLIST_FILE = GapUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A3E50BE1F8C861D00F62E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFFFAB3B64B036B21C819B2 /* Pods-GapUtil.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85369EBNDG;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"$(SRCROOT)/GapUtil/Header.h\"",
+				);
+				INFOPLIST_FILE = GapUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A3E50C01F8C861D00F62E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GapUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GapUtil.app/GapUtil";
+			};
+			name = Debug;
+		};
+		3A3E50C11F8C861D00F62E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GapUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GapUtil.app/GapUtil";
+			};
+			name = Release;
+		};
+		3A3E50C31F8C861D00F62E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GapUtilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapUtilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GapUtil;
+			};
+			name = Debug;
+		};
+		3A3E50C41F8C861D00F62E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GapUtilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gap.GapUtilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GapUtil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A3E508B1F8C861D00F62E29 /* Build configuration list for PBXProject "GapUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3E50BA1F8C861D00F62E29 /* Debug */,
+				3A3E50BB1F8C861D00F62E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3E50BC1F8C861D00F62E29 /* Build configuration list for PBXNativeTarget "GapUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3E50BD1F8C861D00F62E29 /* Debug */,
+				3A3E50BE1F8C861D00F62E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3E50BF1F8C861D00F62E29 /* Build configuration list for PBXNativeTarget "GapUtilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3E50C01F8C861D00F62E29 /* Debug */,
+				3A3E50C11F8C861D00F62E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3E50C21F8C861D00F62E29 /* Build configuration list for PBXNativeTarget "GapUtilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3E50C31F8C861D00F62E29 /* Debug */,
+				3A3E50C41F8C861D00F62E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A3E50881F8C861D00F62E29 /* Project object */;
+}
